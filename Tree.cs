@@ -4,26 +4,41 @@ class Program
 {
     static void Main()
     {
-        int height = 10;
+        Console.WriteLine("🎄 ПРОКачана ЯЛИНКА v2.0");
+        Console.WriteLine("=======================\n");
         
-        for (int i = 1; i <= height; i++)
-        {
-
-            for (int k = 1; k <= height - i; k++)
-                Console.Write(" ");
-            
-            for (int j = 1; j <= 2 * i - 1; j++)
-                Console.Write("*");
-            
-            Console.WriteLine();
-        }
-        
-        for (int i = 1; i <= 3; i++)
-        {
-            for (int k = 1; k <= height - 2; k++)
-                Console.Write(" ");
-            Console.WriteLine("|||");
-        }
+        DrawFancyTree();
         Console.ReadLine();
     }
+    
+    static void DrawFancyTree()
+    {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("         🌟         ");
+        
+        string[] tree = {
+            "       /\\       ",
+            "      /  \\      ",
+            "     /^^^^\\     ",
+            "    /  **  \\    ",
+            "   /   **   \\   ",
+            "  /^^^^^^^^^\\  ",
+            "/   ★★★★   \\ ",
+            "     ||||     ",
+            "     ||||     "
+        };
+        
+        foreach (string line in tree)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(line);
+        }
+        
+        Console.ForegroundColor = ConsoleColor.DarkRed;
+        Console.WriteLine("      |||||      ");
+        Console.WriteLine("      |||||      ");
+        
+        Console.ResetColor();
+    }
+
 }
