@@ -4,13 +4,18 @@
 
 ## Автор
 - **Григор'єва Дарина**, група ПЗПІ-25-2
-- Email: daryna.hryhorieva@nure.ua
+- Email: [daryna.hryhorieva@nure.ua](mailto:daryna.hryhorieva@nure.ua)
 
 ## Технології
-- Мова програмування: C#
-- IDE: Visual Studio Code 1.110
-- VCS: Git 2.47 + GitHub
-- AI-асистент: GitHub Copilot Student
+- Мова програмування: **C# 11.0**
+- IDE: **Visual Studio Code 1.110**
+- VCS: **Git 2.47 + GitHub**
+- AI-асистент: **GitHub Copilot Student**
+
+## Структура проєкту
+- [x] VS Code + розширення C#
+- [x] Git config + перший push
+- [x] 4 коміти з кодом
 
 ## Встановлення та запуск
 ```bash
