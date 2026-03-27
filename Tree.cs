@@ -14,7 +14,7 @@ class Program
     static void DrawFancyTree()
     {
         Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.WriteLine("         🌟         ");
+        Console.WriteLine("       *         ");
         
         string[] tree = {
             "       /\\       ",
@@ -23,7 +23,7 @@ class Program
             "    /  **  \\    ",
             "   /   **   \\   ",
             "  /^^^^^^^^^\\  ",
-            "/   ★★★★   \\ ",
+            "/   *******   \\ ",
             "     ||||     ",
             "     ||||     "
         };
